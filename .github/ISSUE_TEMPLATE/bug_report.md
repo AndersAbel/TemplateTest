@@ -1,35 +1,22 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Report a (non-security) bug
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+# Security issues
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+If you have found a bug that you think might be security related, please *DO NOT OPEN A PUBLIC ISSUE*. Send an e-mail to security@sustainsys.com instead. Normally you should get a response by the next business day.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Non Security Issues
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+### Information needed
+1. What nuget packages are you using
+2. What is the expected behaviour
+3. What happens instead.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+### Additional info
+Please include
+* .Net Framework your application is compiled against (e.g. `net472`, `netcoreap2.1`)
+* .Net Framework installed. This might be different than above. You can compile with net452, but have 4.7.2 installed.
+* Version of Asp.Net MVC / Asp.NET Core used.
